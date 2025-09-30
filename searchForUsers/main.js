@@ -64,7 +64,7 @@ input.addEventListener("input", () => {
 
 })
 
-clear.onclick = () => {
+clear.addEventListener("click", () => {
     input.value = "";
     clear.classList.remove("show");
     menu.innerHTML = "";
@@ -72,7 +72,7 @@ clear.onclick = () => {
     spinner.style.display = "none";
     // clear the setTimeout
     clearTimeout(handler) // in case type and clear quickly
-}
+});
 
 // debouncing makes you avoid wasteful filtering/re-rendering during fast typing
 // The function inside setTimeout only runs once the user pauses typing for 200ms
