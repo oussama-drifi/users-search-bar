@@ -109,7 +109,7 @@ main{
             animation-iteration-count: infinite;
             transform-origin: center center;
             animation-direction:reverse;
-            font-size: 25px;
+            font-size: 22px;
             opacity: 0.6;
             color: rgb(91, 9, 255);
         }
