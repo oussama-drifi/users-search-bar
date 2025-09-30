@@ -26,6 +26,8 @@ const countries = [
     "Vatican City", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
 ];
 
+// we still have 
+
 let handler;
 input.addEventListener("input", () => {
     // clear the list
