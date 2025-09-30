@@ -51,7 +51,7 @@ input.addEventListener("input", () => {
         spinner.style.display = "none";
         // handle search
         const start = input.value.trim().toLocaleUpperCase();
-        const result = countries.filter(elm => elm.toLocaleUpperCase().includes(start));
+        const result = countries.filter(country => country.toLocaleUpperCase().includes(start));
         menu.innerHTML = result.map(elm => `<li role="option">${elm}</li>`).join('');
         menu.querySelectorAll("li").forEach(li => {
             
